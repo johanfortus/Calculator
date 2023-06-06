@@ -1,0 +1,63 @@
+
+
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.title{
+    border: solid 1px black;
+    height: 32px;
+    max-width: 100%;
+    width: 72.2%;
+}
+
+
+.calculator{
+    box-sizing: content-box;
+    border: solid 2px gray;
+    border-radius: 5px;
+    padding: 14px;
+    box-shadow: 2px 2px 2px black;
+    max-width: 100%;
+    width: 363px;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+button{
+    height: 40px;
+    width: 25%;
+}
+button:hover{
+    cursor: pointer;
+}
+.equalButton{
+    background-color: rgb(0, 106, 255);
+    color: white;
+}
+
+.equalButton:hover{
+    background-color: rgb(0, 85, 203);
+}
+
+@media only screen and (max-width: 400px) {
+    .title{
+        max-width: 100%;
+        width: 70.9%;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .title{
+        max-width: 100%;
+        width: 70%;
+    }
+}
